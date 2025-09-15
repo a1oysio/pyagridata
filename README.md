@@ -21,6 +21,7 @@ From GitHub:
 
 ```bash
 pip install git+https://github.com/a1oysio/pyagridata.git@main
+```
 
 🧰 Quick Start
 
