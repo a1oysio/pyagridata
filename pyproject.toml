@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyagridata"
+version = "0.1.0"
+description = "Python client for the European Commission's AgriData API."
+readme = "README.md"
+authors = [{name = "Alvise Carazzolo"}]
+license = {text = "MIT"}
+dependencies = ["requests"]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools.packages.find]
+include = ["pyagridata*"]
