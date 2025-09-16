@@ -28,10 +28,14 @@ pip install git+https://github.com/a1oysio/pyagridata.git@main
 ```python
 from pyagridata import Client, HTTPError
 
-client = Client()
+client = Client(timeout=60)
+params = {
+    'memberStateCodes': ['IT'],
+    # other params,
+    }
 
 try:
-    data = client.cereals.get_prices(productCode="WHEAT", date="2025-07-01")
+    data = client.cereal.get_prices(**params)
     print(data)
 except HTTPError as err:
     print(f"API error: {err.status_code} — {err}")
