@@ -1,12 +1,12 @@
 # pyagridata
 
-A Python wrapper for accessing agricultural market data from the European Commission's AgriData API.
+A Python wrapper for accessing agricultural market data from the European Commission's [AgriFood Data Portal](https://agridata.ec.europa.eu/extensions/DataPortal/home.html).
 
 ---
 
 ## ☑️ Overview
 
-`pyagridata` provides a simple client for retrieving agricultural market data directly from the official European Commission AgriData API.
+`pyagridata` provides a simple client for retrieving agricultural market data directly from the official European Commission AgriData API [[docs](https://agridata.ec.europa.eu/extensions/DataPortal/API_Documentation.html)].
 
 Main features:
 - Safe and consistent HTTP requests with proper error handling  
